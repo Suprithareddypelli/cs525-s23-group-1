@@ -15,6 +15,9 @@ typedef int RC;
 #define RC_WRITE_FAILED 3
 #define RC_READ_NON_EXISTING_PAGE 4
 
+#define RC_READ_FILE_ERROR 5
+#define RC_FILE_CLOSE_FAILURE 6
+
 #define RC_RM_COMPARE_VALUE_OF_DIFFERENT_DATATYPE 200
 #define RC_RM_EXPR_RESULT_IS_NOT_BOOLEAN 201
 #define RC_RM_BOOLEAN_EXPR_ARG_IS_NOT_BOOLEAN 202
@@ -55,3 +58,4 @@ extern char *errorMessage (RC error);
 
 
 #endif
+
